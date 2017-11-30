@@ -35,28 +35,6 @@ function addArrayElements(array){
 	}
 	return parseInt(outputNumber);
 }
-function concatonateArrayToNumber(array){
-	let outputString = "";
-	for (let i = 0; i < array.length; i++) {
-		outputString = outputString.concat(array[i]);
-	}
-	return parseInt(outputString);
-}
-
-// function runIsHappyNumber(){
-// 	var end = userInput("Enter a positive integer:");
-// 	var number = end;
-// 	var value = 0;
-// 	for (var i = 0; i < 10; i++) {
-// 		if(value === end){
-// 			console.log("The number is happy.");
-// 			return true;
-// 		}
-// 		else{
-// 			value = numberToArray()
-// 		}
-// 	}
-// }
 
 function numberToString(number){
 	let output = "number";
@@ -89,13 +67,4 @@ function runIsHappy(){
 
 runIsHappy();
 
-// var x = [1,2,1];
-// console.log(squareArrayElements(x));
-// console.log(concatonateArrayToNumber(x));
-// console.log(concatonateArrayToNumber(squareArrayElements(x)));
-// // alert(numberToArray(userInput("Enter number:")));
-// // function testHappy(number){
-// // 	var 
-
-// }
 
