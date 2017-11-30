@@ -25,8 +25,18 @@ function squareArrayElements(array){
 	}
 	return output;
 }
+
+function concatonateArrayToNumber(array){
+	var outputString = "";
+	for (var i = 0; i < array.length; i++) {
+		outputString = outputString.concat(array[i])
+	}
+	return parseInt(outputString);
+}
 var x = [1,2,1];
 console.log(squareArrayElements(x));
+console.log(concatonateArrayToNumber(x));
+console.log(concatonateArrayToNumber(squareArrayElements(x)));
 // alert(numberToArray(userInput("Enter number:")));
 // function testHappy(number){
 // 	var 
