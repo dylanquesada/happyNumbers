@@ -17,9 +17,19 @@ function numberToArray(number){
 	}
 	return numberArray;
 }
+
+function squareArrayElements(array){
+	var output = [];
+	for (var i = 0; i < array.length; i++) {
+		output[i] = array[i] * array[i];
+	}
+	return output;
+}
+var x = [1,2,1];
+console.log(squareArrayElements(x));
+// alert(numberToArray(userInput("Enter number:")));
 // function testHappy(number){
 // 	var 
 
 // }
 
-alert(numberToArray(userInput("Enter number:")));
